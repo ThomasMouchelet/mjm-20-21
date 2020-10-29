@@ -1,0 +1,17 @@
+.container-float div{
+    width: 100px;   
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.containere-float-aline div{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.containere-float-aline div:nth-child(odd){
+    background-color: red;
+}
+.containere-float-aline div:nth-child(even){
+    background-color: blue;
+}

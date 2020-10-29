@@ -1,0 +1,15 @@
+.container div, .toto div{
+    width: 100px;
+    height: 100px;
+}
+.container div{
+    display: inline-block;
+}
+.toto div:nth-child(odd),
+.container div:nth-child(odd){
+    background-color: red;
+}
+.toto div:nth-child(even),
+.container div:nth-child(even){
+    background-color: blue;
+}

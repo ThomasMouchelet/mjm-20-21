@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(110, 139, 225);
+    padding: 15px 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+}
+nav a:nth-child(2){
+    margin-left: 20px;
+}
+nav a:hover{
+    color: rgb(69, 69, 69);
+}
+.banner{
+    height: 600px;
+    background-image: url(../img/pexels-eberhard-grossgasteiger-572897.jpg);
+    background-color: red;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-size: cover;
+    background-position-y: -300px;
+    /* background-position: center; */
+}
+.txt-content{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+.container div{
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+}
+.container div:nth-child(odd){
+    background-color: salmon;
+}
+.container div:nth-child(even){
+    background-color: rgb(129, 200, 167);
+}
+.container img{
+    width: 100%;
+}
+button{
+    border: none;
+    font-size: 2em;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+button:hover{
+    background-color: transparent;
+    color: #3498db;
+    border: 1px solid #3498db;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+@media screen and (max-width: 600px){
+    .txt-content{
+        width: 100%;
+    }
+    .banner{
+        padding-left: 0;
+    }
+}

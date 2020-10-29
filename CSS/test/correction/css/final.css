@@ -1,0 +1,28 @@
+/************************/
+/* Completer ci-dessous */
+/************************/
+
+/******* final *****/
+
+.left{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.right{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.subr-t{
+    background-color: greenyellow;
+    width: 100%;
+    height: 50%;
+}
+.subr-b{
+    background-color: hotpink;
+    width: 100%;
+    height: 50%;
+}

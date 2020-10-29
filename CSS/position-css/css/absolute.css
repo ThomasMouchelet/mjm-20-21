@@ -1,0 +1,38 @@
+body{
+    background-color: beige;
+    height: 2000px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container{
+    width: 100px;
+    height: 600px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.arrow-top{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+a{
+    color: #fff;
+}
+.relative{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    bottom: -200px;
+}

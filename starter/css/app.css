@@ -1,0 +1,4 @@
+/************************/
+/* Ne pas toucher */
+/************************/
+.row div{height:50px;width:50px;display:flex;justify-content:center;align-items:center;font-size:1.8em;color:#fff}.row div div:nth-child(even),.row div:nth-child(odd){background:#69996d}.row div div:nth-child(odd),.row div:nth-child(even){background:#9491c2}section:nth-child(3) .row>div{height:auto}section:nth-child(4) .row div{display:inline-block}h1{text-align:center;font-size:30px;font-family:monospace}.final img{width:300px}.final section{display:flex;flex-direction:column;align-items:center;justify-content:center}.final img{width:300px}.three .centerImg{text-align:center}

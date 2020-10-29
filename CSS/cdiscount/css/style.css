@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 2em;
+}
+a:hover{
+    color: #000;
+    transition: all .3s;
+}
+nav{
+    background-color: #a29bfe;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    margin: 0;  
+}
+.banner{
+    height: 800px;
+    background-color: red;
+    text-align: center;
+    padding-top: 200px;
+    background-image: url(https://www.snacking.fr/upload/news/xlarge/news_3509.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    border: none;
+    font-size: 3em;
+    background-color: #55efc4;
+    color: #fff;
+    padding: 20px;
+}
+.btn:hover{
+    background-color: #44bb99;
+    transition: all .3s;
+}

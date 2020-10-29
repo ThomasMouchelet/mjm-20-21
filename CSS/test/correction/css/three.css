@@ -1,0 +1,19 @@
+/************************/
+/* Completer ci-dessous */
+/************************/
+
+/******* three *****/
+.btn{
+    background-color: sandybrown;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    font-size: 30px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: sandybrown;
+    border: 1px solid sandybrown;
+    transition: all .3s;
+    cursor: pointer;
+}

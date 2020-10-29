@@ -1,0 +1,25 @@
+/************************/
+/* Completer ci-dessous */
+/************************/
+
+/******* second *****/
+
+/* Aligner avec la propriété "inline-block" */
+section:nth-child(1) div {
+	
+}
+
+/* Aligner avec la propriété "float" */
+section:nth-child(2) div {
+	
+}
+
+/* Ajouter un padding sur la div parente */
+section:nth-child(3) .row > div {
+	
+}
+
+/* Centrer la div */
+section:nth-child(4) .row {
+	
+}

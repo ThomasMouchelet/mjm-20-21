@@ -1,0 +1,27 @@
+/************************/
+/* Completer ci-dessous */
+/************************/
+
+/******* first *****/
+
+/* Selectionner les h1 et leurs appliquer la couleur: rgb(148, 145, 194) */
+h1{
+    color: rgb(148, 145, 194);
+}
+/* Selectionner les span enfant d'un h1 et leurs appliquer la couleur: rgb(53, 59, 119) */
+h1 span{
+    color: rgba(53, 59, 119, 0.5);
+}
+/* Selectionner les span qui ont pour parent un strong et leurs appliquer un surlignage */
+strong span{
+    text-decoration: underline;
+    background-color: red;
+}
+/* Aligner les entrées de menu */
+li{
+    display: inline;
+}
+/* Mettre la couleur suivante: blueviolet, aux entrées de menu */
+ul a{
+    color: red;
+}
